@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mission Notify</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Setting</string>
+    <string name="action_donate">Donate</string>
+    <string name="action_about">About</string>
+    <string name="action_buy">Buy AndroidTV and Watch</string>
+    <string name="title_activity_web">MissionNotify Web View</string>
+    <string name="title_activity_main">MissionNotify Main View</string>
+</resources>

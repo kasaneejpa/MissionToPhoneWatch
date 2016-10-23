@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channnel>
+    <title>東京チャンネル</title>
+    <lastBuildDate>2015/6/3</lastBuildDate>
+    <item>
+        <title>週末は六本木でオールナイトはどうだい</title>
+        <link></link>
+        <description>六本木　夜</description>
+    </item>
+    <item>
+        <title>上野動物公園にいかないか</title>
+        <link></link>
+        <description>上野動物公園</description>
+    </item>
+    <item>
+        <title>東京の水道って実はすごいらしい調べてみよう</title>
+        <link></link>
+        <description>東京都水道局</description>
+    </item>
+    <item>
+        <title>戸越銀座商店街って凄い長いらしいから行ってみよう</title>
+        <link></link>
+        <description>戸越銀座商店街</description>
+    </item>
+    <item>
+        <title>大河ドラマでやっている松陰神社にいってお参りしよう</title>
+        <link></link>
+        <description>松陰神社</description>
+    </item>
+</channnel>
+</rss>

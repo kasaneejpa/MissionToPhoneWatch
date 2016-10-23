@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channnel>
+    <title>子供チャンネル</title>
+    <lastBuildDate>2015/6/3</lastBuildDate>
+    <item>
+        <title>ザリガニ釣りに行こう</title>
+        <link></link>
+        <description>ザリガニ釣り</description>
+    </item>
+    <item>
+        <title>週末は燻製を作ってもらおう</title>
+        <link></link>
+        <description>燻製機</description>
+    </item>
+    <item>
+        <title>熱中症に気を付けよう、いつも飲み物を持っていよう</title>
+        <link></link>
+        <description>熱中症</description>
+    </item>
+    <item>
+        <title>タミヤの水中モーターって面白いよ</title>
+        <link></link>
+        <description>タミヤ　水中モーター</description>
+    </item>
+</channnel>
+</rss>

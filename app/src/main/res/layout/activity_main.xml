@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通知間隔"
+        android:id="@+id/textView"
+        android:textColor="#ffff1e25"
+        android:layout_below="@+id/selectChannelTxt"
+        android:layout_alignParentStart="true"
+        android:singleLine="true" />
+
+    <Button
+
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="配信開始"
+        android:id="@+id/notifFire"
+        android:onClick="onNotificationFire"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/webView"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/missionTxt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="missionTxt"
+        android:id="@+id/missionTxt"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff3114ff" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="配信中断"
+        android:id="@+id/button"
+        android:onClick="onNotificationStop"
+        android:layout_below="@+id/radioGroup"
+        android:layout_toRightOf="@+id/notifFire"
+        android:layout_toEndOf="@+id/notifFire" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SelectChannel"
+        android:id="@+id/selectChannelTxt"
+        android:onClick="onChannelClick"
+        android:layout_below="@+id/textView4"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:textColor="#ff2d23ff"
+        android:phoneNumber="true" />
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="現在のミッションと情報"
+        android:id="@+id/textView2"
+        android:textColor="#ffff1e22"
+        android:layout_below="@+id/notifFire"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="#ffff1c28"
+        android:layout_alignParentTop="true"
+        android:password="false"
+        android:text="現在のチャンネル(クリックで選択）" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textView"
+        android:id="@+id/radioGroup"
+        android:layout_alignEnd="@+id/textView2">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15秒"
+            android:id="@+id/radioButton15sec" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30秒"
+            android:id="@+id/radioButton30sec"
+            android:layout_below="@+id/radioButton5min"
+            android:layout_alignEnd="@+id/notifFire" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1分"
+            android:id="@+id/radioButton1min"
+            android:layout_alignTop="@+id/radioButton30sec"
+            android:layout_toStartOf="@+id/button" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="５分"
+            android:id="@+id/radioButton5min"
+            android:layout_below="@+id/selectChannelTxt"
+            android:layout_toEndOf="@+id/radioButton1min" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10分"
+            android:id="@+id/radioButton10min" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="大画面"
+        android:id="@+id/button2"
+        android:onClick="onFullViewClick"
+        android:layout_below="@+id/radioGroup"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="次"
+        android:id="@+id/button3"
+        android:onClick="onNotificationFire"
+        android:layout_below="@+id/radioGroup"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+</RelativeLayout>

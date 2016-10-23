@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channnel>
+    <title>Mission Notify Channel list</title>
+    <lastBuildDate>2015/6/3</lastBuildDate>
+    <item>
+        <title>運営者からお知らせ</title>
+        <link></link>
+        <description>corp_channel.xml</description>
+    </item>
+    <item>
+        <title>社会貢献</title>
+        <link></link>
+        <description>social_channel.xml</description>
+    </item>
+    <item>
+        <title>SPIなりきり</title>
+        <link></link>
+        <description>spi_channel.xml</description>
+    </item>
+    <item>
+        <title>ダイエット</title>
+        <link></link>
+        <description>diet_channel.xml</description>
+    </item>
+    <item>
+        <title>ナチュラルライフ</title>
+        <link></link>
+        <description>naturallifestyle_channel.xml</description>
+    </item>
+    <item>
+        <title>音楽</title>
+        <link></link>
+        <description>music_channel.xml</description>
+    </item>
+    <item>
+        <title>東京</title>
+        <link></link>
+        <description>tokyo_channel.xml</description>
+    </item>
+    <item>
+        <title>仙台</title>
+        <link></link>
+        <description>sendai_channel.xml</description>
+    </item>
+    <item>
+        <title>子供</title>
+        <link></link>
+        <description>child_channel.xml</description>
+    </item>
+    <item>
+        <title>サラリーマン</title>
+        <link></link>
+        <description>employee_channel.xml</description>
+    </item>
+</channnel>
+</rss>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channnel>
+    <title>音楽チャンネル</title>
+    <lastBuildDate>2015/6/3</lastBuildDate>
+    <item>
+        <title>サザンオールスターズを聴こう</title>
+        <link></link>
+        <description>サザンオールスターズ　youtube</description>
+    </item>
+    <item>
+        <title>Crystal Kayを聴こう</title>
+        <link></link>
+        <description>Crystal kay youtube</description>
+    </item>
+    <item>
+        <title>ソニーミュージックってきにならない？</title>
+        <link></link>
+        <description>ソニーミュージック</description>
+    </item>
+    <item>
+        <title>週末ライブハウスに行こうよ</title>
+        <link></link>
+        <description>ライブハウス</description>
+    </item>
+    <item>
+        <title>たまにはクラシックもいいかもよ</title>
+        <link></link>
+        <description>クラシックコンサート</description>
+    </item>
+</channnel>
+</rss>
