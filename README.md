@@ -18,7 +18,6 @@
   
   このアプリ方式は特許第５８８５１１５号として田篠に特許が成立しています。
   
-  詳しくは下記のPPTをごらんください。
-  
-  https://docs.com/user442975/8925/20161023-tashino
+  詳しくは特許庁　特許情報プラットフォームで検索してください。
+  https://www.j-platpat.inpit.go.jp/web/all/top/BTmTopPage
   
